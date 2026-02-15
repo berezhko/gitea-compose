@@ -1,3 +1,4 @@
+'
 services:
   server:
     image: gitea/gitea:latest
@@ -14,3 +15,4 @@ services:
     ports:
       - "3003:3000"
       - "2002:22"
+'
